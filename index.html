@@ -9,8 +9,20 @@
     <link rel="stylesheet" href="media/style.css">
     <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    
+    <!-- Crisp Chat Integration -->
+    <script type="text/javascript">
+      window.$crisp=[];window.CRISP_WEBSITE_ID="4c8f53fa-e09e-467b-a553-97cf7e01c763";
+      (function(){
+        d=document;
+        s=d.createElement("script");
+        s.src="https://client.crisp.chat/l.js";
+        s.async=1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
+  </head>
+  <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <nav class="desktop_navbar">
       <a href="#"><img class="desktop_navbar_logo_img" src="media/logo_small.png" alt="logo"></a>
@@ -60,20 +72,19 @@
           </button>
           <script>
             function copyText() {
-                navigator.clipboard.writeText
-            ("GrillSmp.Bmx.Lol");
-                }
+                navigator.clipboard.writeText("GrillSmp.Bmx.Lol");
+            }
             $(document).ready(function() {
-            $('.main1_ipcopier').click(function() {
-                var popup = $('<div>', { class: 'main1_popup' })
-                .append($('<h3 class="copy_confirm">').text('Copied IP to clipboard'))
-                $(this).after(popup);
-                setTimeout(function() {
-                popup.remove();
-                }, 1000);
+              $('.main1_ipcopier').click(function() {
+                  var popup = $('<div>', { class: 'main1_popup' })
+                  .append($('<h3 class="copy_confirm">').text('Copied IP to clipboard'))
+                  $(this).after(popup);
+                  setTimeout(function() {
+                    popup.remove();
+                  }, 1000);
+              });
             });
-            });
-        </script>
+          </script>
         </div>
         <a href="#more" class="scroll">
           <img alt="downarrow" class="main1_downarrow" src="media/downarrow.png">
@@ -153,82 +164,4 @@
           <div class="main5_admins_div main5_admins_dev_type1">
             <img class="main5_admins_img" alt="admin member img" src="media/Rdx.webp">
             <div class="main5_admins_description_div">
-              <a class="main5_admins_description_rank main5_admins_description_rank_admin">[Co-Owner/Developer]</a>
-              <a class="main5_admins_description_title" href="https://example.com">RdxHere</a>
-              <a class="main5_admins_description">Co-Owner/Developer<br>description</a>
-            </div>
-          </div>
-        </div>
-        <div class="main5_supporter_div">
-          <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
-            <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[Supporter]</a>
-              <a class="main5_supporters_description_title">Replacable Supporter 1</a>
-              <a class="main5_supporters_description">Supporter<br>Description</a>
-            </div>
-          </div>
-          <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
-            <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[Supporter]</a>
-              <a class="main5_supporters_description_title">Replacable Supporter 2</a>
-              <a class="main5_supporters_description">Supporter<br>Description</a>
-            </div>
-          </div>
-          <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
-            <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[Supporter]</a>
-              <a class="main5_supporters_description_title">Replacable Supporter 3</a>
-              <a class="main5_supporters_description">Supporter<br>Description</a>
-            </div>
-          </div>
-          <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
-            <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[Supporter]</a>
-              <a class="main5_supporters_description_title">Replacable Supporter 4</a>
-              <a class="main5_supporters_description">Supporter<br>Description</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="join"></div>
-      <div class="main3">
-        <a class="headline">How to join</a>
-        <div class="main3_join_div_div">
-          <div class="main3_join_div">
-            <a class="main3_join_title">Java</a>
-            <div class="main3_join_content_div">
-              <div class="main3_join_categories">
-                <a>IP:</a>
-                <a>Version:</a>
-              </div>
-              <div class="main3_join_values">
-                <a>GrillSmp.Bmx.Lol</a>
-                <a> [1.8 - 1.21.3] </a>
-              </div>
-            </div>
-          </div>
-          <div class="main3_join_div">
-            <a class="main3_join_title">Bedrock</a>
-            <div class="main3_join_content_div">
-              <div class="main3_join_categories">
-                <a>IP:</a>
-                <a>Port:</a>
-              </div>
-              <div class="main3_join_values">
-                <a>GrillSmp.Bmx.Lol</a>
-                <a>69420</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer class="copyright_div">
-      <a href="https://rdxheredev.github.io/GrillSmp" class="copyright">Made By RdxHere</a>
-    </footer>
-  </body>
-</html>
+              <a class="main5_admins_description_rank main5_admins_description_rank_admin">[
