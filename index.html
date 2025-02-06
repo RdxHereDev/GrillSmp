@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Under Maintenance</title>
-    <link rel="icon" href="YOUR_FAVICON_URL" type="image/png"> <!-- Replace with your favicon URL -->
+    <link rel="icon" href="https://media.discordapp.net/attachments/1334092782616449035/1337145281128562739/88926.gif?ex=67a66115&is=67a50f95&hm=45b7f6d693e943f20e90691c2a05969d19167ffff849a91463c0970c6f53293a&" type="image/gif"> <!-- Favicon URL -->
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             background-color: #1c1c1c; /* Matte black */
             color: #f5f5dc; /* Cream */
             font-family: Arial, sans-serif;
             text-align: center;
+        }
+        .banner {
+            width: 100%;
+            max-height: 200px; /* Adjust the height of the banner */
+            object-fit: cover;
+            margin-bottom: 20px;
         }
         .container {
             text-align: center;
@@ -29,15 +36,16 @@
             font-size: 1.2em;
             margin-top: 10px;
         }
-        img {
+        img.logo {
             max-width: 200px; /* Adjust the size of the logo */
             margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
+    <img class="banner" src="https://media.discordapp.net/attachments/1330088526712275007/1333699994682658856/standard.gif?ex=67a65ea9&is=67a50d29&hm=061355861778d5deb3e5beaf492651c1c7d15bd9c74a8720f69aa78c2bb1a0ac&" alt="Banner"> <!-- Replace with your banner URL -->
     <div class="container">
-        <img src="YOUR_LOGO_URL" alt="Logo"> <!-- Replace with your logo URL -->
+        <img class="logo" src="https://media.discordapp.net/attachments/1334092782616449035/1337145281128562739/88926.gif?ex=67a66115&is=67a50f95&hm=45b7f6d693e943f20e90691c2a05969d19167ffff849a91463c0970c6f53293a&" alt="Logo"> <!-- Logo URL -->
         <h1>Under Maintenance</h1>
         <p>We are currently undergoing maintenance. Please check back later.</p>
     </div>
