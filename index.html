@@ -3,25 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <link rel="icon" href="YOUR_FAVICON_URL" type="image/png">
+    <title>Under Maintenance</title>
+    <link rel="icon" href="YOUR_FAVICON_URL" type="image/png"> <!-- Replace with your favicon URL -->
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
-            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1c1c1c; /* Matte black */
+            color: #f5f5dc; /* Cream */
+            font-family: Arial, sans-serif;
+            text-align: center;
         }
-        .fullscreen-image {
-            background-image: url('https://dribbble.com/shots/3208896-Under-Maintenance-Page');
-            background-size: cover;
-            background-position: center;
-            height: 100%;
-            width: 100%;
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        img {
+            max-width: 200px; /* Adjust the size of the logo */
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="fullscreen-image"></div>
+    <div class="container">
+        <img src="YOUR_LOGO_URL" alt="Logo"> <!-- Replace with your logo URL -->
+        <h1>Under Maintenance</h1>
+        <p>We are currently undergoing maintenance. Please check back later.</p>
+    </div>
 </body>
 </html>
